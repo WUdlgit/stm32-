@@ -1,0 +1,116 @@
+Date : 2026-01-15 13:19:53
+Directory : c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次
+Total : 81 files,  22527 codes, 15997 comments, 5634 blanks, all 44158 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         36 |     10,845 |      5,930 |      3,053 |     19,828 |
+| C        |         34 |      8,642 |     10,066 |      2,219 |     20,927 |
+| ARM      |          8 |      2,397 |          0 |        264 |      2,661 |
+| HTML     |          2 |        618 |          0 |         96 |        714 |
+| Batch    |          1 |         25 |          1 |          2 |         28 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         81 |     22,527 |     15,997 |      5,634 |     44,158 |
+| . (Files)                                                                    |          1 |         25 |          1 |          2 |         28 |
+| Hardware                                                                     |         13 |        424 |        350 |        103 |        877 |
+| Library                                                                      |         46 |     11,233 |     12,816 |      3,330 |     27,379 |
+| Objects                                                                      |          2 |        618 |          0 |         96 |        714 |
+| Start                                                                        |         13 |     10,093 |      2,648 |      2,055 |     14,796 |
+| System                                                                       |          2 |         29 |         15 |          7 |         51 |
+| User                                                                         |          4 |        105 |        167 |         41 |        313 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                     | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\Buzzer.c               | C        |         30 |          0 |          7 |         37 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\Buzzer.h               | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\CountSensor.c          | C        |         41 |          0 |         10 |         51 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\CountSensor.h          | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\Key.c                  | C        |         30 |          0 |          5 |         35 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\Key.h                  | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\LED.c                  | C        |         49 |          0 |         10 |         59 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\LED.h                  | C++      |         10 |          0 |          3 |         13 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\LightSensor.c          | C        |         14 |          0 |          4 |         18 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\LightSensor.h          | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\OLED.c                 | C        |        191 |         93 |         38 |        322 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\OLED.h                 | C++      |         11 |          0 |          3 |         14 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Hardware\OLED_Font.h            | C++      |         26 |        257 |         11 |        294 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\misc.c                  | C        |         62 |        132 |         32 |        226 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\misc.h                  | C++      |         49 |        131 |         41 |        221 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_adc.c         | C        |        535 |        680 |         93 |      1,308 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_adc.h         | C++      |        227 |        176 |         81 |        484 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_bkp.c         | C        |         87 |        173 |         49 |        309 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_bkp.h         | C++      |         91 |         78 |         27 |        196 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_can.c         | C        |        749 |        522 |        145 |      1,416 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_can.h         | C++      |        254 |        296 |        148 |        698 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_cec.c         | C        |        130 |        227 |         77 |        434 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_cec.h         | C++      |         67 |        107 |         37 |        211 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_crc.c         | C        |         31 |        103 |         27 |        161 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_crc.h         | C++      |         16 |         60 |         19 |         95 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dac.c         | C        |        206 |        308 |         58 |        572 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dac.h         | C++      |        137 |        133 |         48 |        318 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dbgmcu.c      | C        |         23 |        117 |         23 |        163 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dbgmcu.h      | C++      |         40 |         60 |         20 |        120 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dma.c         | C        |        221 |        437 |         57 |        715 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_dma.h         | C++      |        236 |        141 |         63 |        440 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_exti.c        | C        |         96 |        132 |         42 |        270 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_exti.h        | C++      |         71 |         80 |         34 |        185 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_flash.c       | C        |        802 |        708 |        175 |      1,685 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_flash.h       | C++      |        206 |        163 |         58 |        427 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_fsmc.c        | C        |        484 |        310 |         73 |        867 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_fsmc.h        | C++      |        210 |        359 |        165 |        734 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_gpio.c        | C        |        292 |        293 |         66 |        651 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_gpio.h        | C++      |        223 |        108 |         55 |        386 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_i2c.c         | C        |        494 |        719 |        119 |      1,332 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_i2c.h         | C++      |        204 |        398 |         83 |        685 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_iwdg.c        | C        |         40 |        124 |         27 |        191 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_iwdg.h        | C++      |         38 |         78 |         25 |        141 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_pwr.c         | C        |         91 |        175 |         42 |        308 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_pwr.h         | C++      |         44 |         84 |         29 |        157 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_rcc.c         | C        |        579 |        744 |        148 |      1,471 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_rcc.h         | C++      |        417 |        206 |        105 |        728 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_rtc.c         | C        |        111 |        190 |         39 |        340 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_rtc.h         | C++      |         40 |         72 |         24 |        136 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_sdio.c        | C        |        252 |        441 |        107 |        800 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_sdio.h        | C++      |        256 |        195 |         81 |        532 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_spi.c         | C        |        375 |        438 |         96 |        909 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_spi.h         | C++      |        196 |        210 |         82 |        488 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_tim.c         | C        |      1,226 |      1,436 |        229 |      2,891 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_tim.h         | C++      |        615 |        394 |        156 |      1,165 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_usart.c       | C        |        458 |        502 |         99 |      1,059 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_usart.h       | C++      |        171 |        174 |         68 |        413 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_wwdg.c        | C        |         53 |        136 |         36 |        225 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Library\stm32f10x_wwdg.h        | C++      |         28 |         66 |         22 |        116 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Objects\Project.build_log.htm   | HTML     |         43 |          0 |          8 |         51 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Objects\Project.htm             | HTML     |        575 |          0 |         88 |        663 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\core_cm3.c                | C        |        288 |        408 |         89 |        785 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\core_cm3.h                | C++      |        703 |        792 |        324 |      1,819 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_cl.s    | ARM      |        335 |          0 |         34 |        369 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_hd.s    | ARM      |        327 |          0 |         32 |        359 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_hd_vl.s | ARM      |        314 |          0 |         33 |        347 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_ld.s    | ARM      |        264 |          0 |         34 |        298 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_ld_vl.s | ARM      |        273 |          0 |         32 |        305 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_md.s    | ARM      |        274 |          0 |         34 |        308 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_md_vl.s | ARM      |        283 |          0 |         33 |        316 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\startup_stm32f10x_xl.s    | ARM      |        327 |          0 |         32 |        359 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\stm32f10x.h               | C++      |      6,168 |        981 |      1,188 |      8,337 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\system_stm32f10x.c        | C        |        525 |        401 |        169 |      1,095 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\Start\system_stm32f10x.h        | C++      |         12 |         66 |         21 |         99 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\System\Delay.c                  | C        |         23 |         15 |          4 |         42 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\System\Delay.h                  | C++      |          6 |          0 |          3 |          9 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\User\main.c                     | C        |         14 |          0 |          5 |         19 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\User\stm32f10x_conf.h           | C++      |         32 |         38 |          8 |         78 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\User\stm32f10x_it.c             | C        |         40 |        102 |         19 |        161 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\User\stm32f10x_it.h             | C++      |         19 |         27 |          9 |         55 |
+| c:\Users\吴迪垒\Desktop\stm32project\对射式红外传感器计次\keilkill.bat                    | Batch    |         25 |          1 |          2 |         28 |
+| Total                                                                        |          |     22,527 |     15,997 |      5,634 |     44,158 |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

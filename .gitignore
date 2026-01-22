@@ -1,0 +1,10 @@
+# 编译输出
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.吴迪垒
